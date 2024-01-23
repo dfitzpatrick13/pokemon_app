@@ -10,7 +10,7 @@ class Index extends React.Component {
     const { pokemon } = this.props;
     return (
       <div style={style}>
-        <h1>See All The Pokemon!</h1>
+        <h1>All The Pokemon</h1>
         <ul>
           {pokemon.map((poke, index) => (
             <li key={index}>

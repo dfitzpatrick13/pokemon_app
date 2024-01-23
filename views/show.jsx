@@ -7,17 +7,17 @@ class Show extends React.Component {
     const selectedPokemon = pokemon[pokemonId];
 
     if (!selectedPokemon) {
-      return <div>Pokemon not found!</div>;
+      return <div>Pokemon not found</div>;
     }
 
     const { name, img } = selectedPokemon;
 
     return (
       <div>
-        <h1>Gotta Catch 'Em All</h1>
+        <h1>Gotta Catch Em All</h1>
         <h2>{name}</h2>
         <img src={`${img}.jpg`} alt={name} />
-        <a href="/pokemon">Back</a>
+        <a href="/pokemon">BACk</a>
       </div>
     );
   }
